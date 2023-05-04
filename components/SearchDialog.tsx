@@ -269,10 +269,10 @@ export function SearchDialog() {
                   rounded border border-slate-200 dark:border-slate-600
                   transition-colors"
                   onClick={(_) =>
-                    setSearch('电源灯不亮应该怎么办？')
+                    setSearch('冷柜的电源灯不亮应该怎么办？')
                   }
                 >
-                  电源灯不亮应该怎么办？
+                  冷柜的电源灯不亮应该怎么办
                 </button>
               </div>
             </div>
