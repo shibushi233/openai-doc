@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>科易智能AI</title>
+        <title>科易AI</title>
         <meta
           name="description"
-          content="科易智能AI，快速为您提供使用帮助，您可以咨询我任何我们的产品"
+          content="您可以向我咨询任何有关产品的使用说明，故障应急处理方法"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -26,8 +26,8 @@ export default function Home() {
 
         <div className="py-8 w-full flex items-center justify-center space-x-6">
           <div className="opacity-75 transition hover:opacity-100 cursor-pointer">
-            <Link href="https://kkyi.xyz" className="flex items-center justify-center">
-              <p className="text-base mr-2">Built by 科易物联网</p>
+            <Link href="https://supabase.com" className="flex items-center justify-center">
+              <p className="text-base mr-2">Built by Supabase</p>
               <Image src={'/supabase.svg'} width="20" height="20" alt="Supabase logo" />
             </Link>
           </div>
