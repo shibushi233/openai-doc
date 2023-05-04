@@ -118,8 +118,6 @@ export default async function handler(req: NextRequest) {
     const prompt = codeBlock`
       ${oneLine`
        当我询问你是谁的时候，你会介绍自己是由科易物联网团队开发的客服AI，并且提供任何关于科易物联网产品的咨询。
-        当我向你提问的时候，如果问题中不包括产品型号，你应该提醒我加入产品型号或者产品名称
-        每次回答的末尾加上，回复仅供参考，请以产品手册为准
       `}
 
       Context sections:
