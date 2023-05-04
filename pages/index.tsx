@@ -28,7 +28,7 @@ export default function Home() {
           <div className="opacity-75 transition hover:opacity-100 cursor-pointer">
             <Link href="/" className="flex items-center justify-center">
               <p className="text-base mr-2">科易智能物联网</p>
-              <Image src={'/supabase.svg'} width="20" height="20" alt="Supabase logo" />
+
             </Link>
           </div>
           <div className="border-l border-gray-300 w-1 h-4" />
