@@ -195,9 +195,9 @@ export function SearchDialog() {
       <Dialog open={open}>
         <DialogContent className="sm:max-w-[850px] text-black">
           <DialogHeader>
-            <DialogTitle>OpenAI powered doc search</DialogTitle>
+            <DialogTitle>科易AI客服</DialogTitle>
             <DialogDescription>
-              Build your own ChatGPT style search with Next.js, OpenAI & Supabase.
+              您可以咨询我产品使用手册，故障应急处理方法
             </DialogDescription>
             <hr />
             <button className="absolute top-0 right-2 p-2" onClick={() => setOpen(false)}>
@@ -230,7 +230,7 @@ export function SearchDialog() {
                     <Frown width={18} />
                   </span>
                   <span className="text-slate-700 dark:text-slate-100">
-                    Sad news, the search has failed! Please try again.
+                    抱歉，未查询到相关信息，请重新尝试！
                   </span>
                 </div>
               )}
@@ -240,14 +240,14 @@ export function SearchDialog() {
                   <span className="bg-green-500 p-2 w-8 h-8 rounded-full text-center flex items-center justify-center">
                     <Wand width={18} className="text-white" />
                   </span>
-                  <h3 className="font-semibold">Answer:</h3>
+                  <h3 className="font-semibold">回复:</h3>
                   {answer}
                 </div>
               ) : null}
 
               <div className="relative">
                 <Input
-                  placeholder="Ask a question..."
+                  placeholder="输入您的问题"
                   name="search"
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
@@ -260,7 +260,7 @@ export function SearchDialog() {
                 />
               </div>
               <div className="text-xs text-gray-500 dark:text-gray-100">
-                Or try:{' '}
+                您是否需要咨询:{' '}
                 <button
                   type="button"
                   className="px-1.5 py-0.5
@@ -269,16 +269,16 @@ export function SearchDialog() {
                   rounded border border-slate-200 dark:border-slate-600
                   transition-colors"
                   onClick={(_) =>
-                    setSearch('Create a table called profiles with fields id, name, email')
+                    setSearch('电源灯不亮应该怎么办？')
                   }
                 >
-                  Create a table called profiles with fields id, name, email
+                  电源灯不亮应该怎么办？
                 </button>
               </div>
             </div>
             <DialogFooter>
               <Button type="submit" className="bg-red-500">
-                Ask
+                提交
               </Button>
             </DialogFooter>
           </form>
