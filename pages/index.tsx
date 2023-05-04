@@ -38,18 +38,17 @@ export default function Home() {
                 href="https://github.com/supabase/supabase"
                 className="flex items-center justify-center"
               >
-              
+                <Image src={'/github.svg'} width="20" height="20" alt="Github logo" />
               </Link>
             </div>
-          
+            <div className="opacity-75 transition hover:opacity-100 cursor-pointer">
               <Link
                 href="https://twitter.com/supabase"
                 className="flex items-center justify-center"
               >
-                
+                <Image src={'/twitter.svg'} width="20" height="20" alt="Twitter logo" />
               </Link>
             </div>
-         
           </div>
         </div>
       </main>
