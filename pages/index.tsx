@@ -32,7 +32,23 @@ export default function Home() {
             </Link>
           </div>
           <div className="border-l border-gray-300 w-1 h-4" />
-         
+          <div className="flex items-center justify-center space-x-4">
+            <div className="opacity-75 transition hover:opacity-100 cursor-pointer">
+              <Link
+                href="https://github.com/supabase/supabase"
+                className="flex items-center justify-center"
+              >
+              
+              </Link>
+            </div>
+          
+              <Link
+                href="https://twitter.com/supabase"
+                className="flex items-center justify-center"
+              >
+                
+              </Link>
+            </div>
          
           </div>
         </div>
